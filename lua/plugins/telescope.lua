@@ -134,5 +134,6 @@ return {
     telescope.setup(opts)
     -- Load fzf extension for better fuzzy finding
     telescope.load_extension("fzf")
+    telescope.load_extension("remote-sshfs")
   end,
 }
